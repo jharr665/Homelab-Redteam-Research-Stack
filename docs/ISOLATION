@@ -1,0 +1,5 @@
+Isolation
+⦁	Dedicated VLAN for red-team labs.
+⦁	OPNsense firewall denies by default to prod VLANs.
+⦁	Allowlist only when required (e.g., SOC integration).
+⦁	No internet unless via controlled gateway.
