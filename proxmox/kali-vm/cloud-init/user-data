@@ -1,0 +1,4 @@
+#cloud-config
+hostname: kali
+ssh_authorized_keys:
+  - ${PENTEST_SSH_PUBKEY}
