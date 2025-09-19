@@ -1,0 +1,6 @@
+# Example red-team scenario
+name: Lateral Movement Example
+steps:
+  - exploit: phishing
+  - escalate: credential_dump
+  - lateral_move: smb_pass_the_hash
